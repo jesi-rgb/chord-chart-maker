@@ -41,5 +41,5 @@
 	on:keydown={evaluateChord}
 	type="text"
 	class="text-4xl text-left w-full font-medium"
-	value="Bbm13"
+	value="-"
 />
