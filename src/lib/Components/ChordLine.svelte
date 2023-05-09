@@ -5,16 +5,12 @@
 	import { chordLines } from '../../stores.js';
 </script>
 
-<div class="flex text-3xl flex-row space-y-3 items-center justify-evenly">
+<div class="flex flex-row text-3xl space-x-3 items-center">
 	<Chord />
-	|
+	<div class="font-extralight text-gray-200">|</div>
 	<Chord />
-	|
+	<div class="font-extralight text-gray-200">|</div>
 	<Chord />
-	|
+	<div class="font-extralight text-gray-200">|</div>
 	<Chord />
-	<button
-		on:click={() => chordLines.update((n) => n - 1)}
-		class="print:hidden rounded-full p-1 border-2 border-red-600 text-red-600"><Trash /></button
-	>
 </div>

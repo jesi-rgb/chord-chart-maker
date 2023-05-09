@@ -3,6 +3,9 @@ const config = {
 
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Author']
+      },
       screens: {
         a4: '210mm'
       }

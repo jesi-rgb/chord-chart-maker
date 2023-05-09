@@ -38,6 +38,6 @@
 	on:submit={evaluateChord}
 	on:keydown={evaluateChord}
 	type="text"
-	class="text-5xl text-center h-full w-full font-bold"
-	value="C"
+	class="text-4xl text-left w-full font-medium"
+	value="Bbm13"
 />
