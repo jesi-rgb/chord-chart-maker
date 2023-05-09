@@ -1,4 +1,5 @@
 <script>
+	import { Plus } from 'phosphor-svelte';
 	import ChordLine from '../lib/Components/ChordLine.svelte';
 
 	import { chordLines } from '../stores.js';
@@ -11,7 +12,10 @@
 		<ChordLine />
 	{/each}
 </div>
-<button
-	class="print:hidden text-center mx-auto border-2 border-black rounded-xl w-full bg-gray-50"
-	on:click={() => chordLines.update((n) => n + 1)}>+</button
+<div
+	class="print:hidden text-center mx-auto py-1 border-2 border-black rounded-xl font-bold text-4xl w-full bg-gray-50"
 >
+	<button on:click={() => chordLines.update((n) => n + 1)}>
+		<Plus weight="bold" />
+	</button>
+</div>
