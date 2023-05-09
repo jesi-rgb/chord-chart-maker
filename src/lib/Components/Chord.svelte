@@ -34,6 +34,8 @@
 	};
 </script>
 
+<!---->
+<!-- test comment -->
 <input
 	on:submit={evaluateChord}
 	on:keydown={evaluateChord}
